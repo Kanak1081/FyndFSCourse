@@ -1,0 +1,149 @@
+.spacer{
+    height:20px;
+}
+#one{
+    background:salmon;
+    height: 100px;
+    width: 300px;
+}
+#two{
+    background: yellowgreen;
+    height: 100px;
+    width: 300px;
+}
+#three{
+    background:purple;
+    height: 100px;
+    width: 300px;
+}
+
+@media only screen and (max-width:600px){
+    .spacer{
+        height:10px;
+    }
+    #one{
+        background:orange;
+        height: 50px;
+        width: 100px;
+    }
+    #two{
+        background: yellowgreen;
+        height: 50px;
+        width: 100px;
+    }
+    #three{
+        background:green;
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .spacer{
+        height:20px;
+    }
+    #one{
+        background:salmon;
+        height: 50px;
+        width: 100px;
+    }
+    #two{
+        background: yellowgreen;
+        height: 50px;
+        width: 100px;
+    }
+    #three{
+        background:purple;
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .spacer{
+        height:30px;
+    }
+    #one{
+        background:salmon;
+        height: 50px;
+        width: 100px;
+    }
+    #two{
+        background: yellowgreen;
+        height: 50px;
+        width: 100px;
+    }
+    #three{
+        background:purple;
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .spacer{
+        height:40px;
+    }
+    #one{
+        background:salmon;
+        height: 50px;
+        width: 100px;
+    }
+    #two{
+        background: yellowgreen;
+        height: 50px;
+        width: 100px;
+    }
+    #three{
+        background:purple;
+        height: 50px;
+        width: 100px;
+    }
+}
+@media only screen and (min-width:1200px){
+    .spacer{
+        height:50px;
+    }
+    #one{
+        background:salmon;
+        height: 50px;
+        width: 100px;
+    }
+    #two{
+        background: yellowgreen;
+        height: 50px;
+        width: 100px;
+    }
+    #three{
+        background:purple;
+        height: 50px;
+        width: 100px;
+    }
+}
+
+
+#FlexParent{
+    display: flex;
+   
+   align-items: center;
+   justify-content:stretch;
+   
+}
+.seeTheDivs{
+   
+    background:chartreuse;
+}
+#threediv{
+    /* flex-grow: 1; */
+}
+
+
+#onediv{
+    /* flex-grow: 1; */
+}
+#twodiv{
+    /*flex-grow: 1;*/
+    
+    background: red;
+}
+
